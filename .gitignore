@@ -1,0 +1,32 @@
+# PlatformIO build files and cache
+.pio/
+.cache/
+
+# ESP-IDF generated configuration (keep explicit defaults if added)
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+!sdkconfig.defaults.*
+
+# Generated compilation database and local clangd state
+compile_commands.json
+clangd.log
+.clangd
+
+# Additional build artifacts
+build/
+*.elf
+*.bin
+*.map
+
+# IDE/user-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and OS metadata
+*.log
+.DS_Store
+Thumbs.db
